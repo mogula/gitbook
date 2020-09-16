@@ -5,3 +5,4 @@
 * [1. Subversion](svn/README.md)
   * [1.1 ignores](svn/ignores.md)
 
+* [1. Git](git/README.md)
