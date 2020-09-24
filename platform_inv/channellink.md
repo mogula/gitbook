@@ -16,5 +16,7 @@ http://localhost:8080/orderchannel/baidu/index.html?fes=9on&sou=33
 fes 是活动表中fescod字段32进制的表示，sou 是渠道表中orderchannel字段32进制的表示。
   
 mysql 可以通过conv函数进行进制转换。
+```
 select conv(fescod, 10, 32) from tb_ordercenter_festival
 select conv(orderchannel, 10, 32) from tb_ordercenter_channel
+```
